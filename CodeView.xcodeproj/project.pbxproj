@@ -7,48 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D79C09BA299DC5F30032599C /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C09B9299DC5F30032599C /* FollowerListVC.swift */; };
+		D79C09BC299DD8CB0032599C /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C09BB299DD8CB0032599C /* GFTitleLabel.swift */; };
+		D79C09BE299DDA180032599C /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C09BD299DDA180032599C /* GFBodyLabel.swift */; };
+		D79C09C0299DDA9C0032599C /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C09BF299DDA9C0032599C /* GFAlertVC.swift */; };
+		D79C09C2299DDF060032599C /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C09C1299DDF060032599C /* UIViewController+Ext.swift */; };
 		D7F23F88298047110096316B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F23F87298047110096316B /* AppDelegate.swift */; };
 		D7F23F8A298047110096316B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F23F89298047110096316B /* SceneDelegate.swift */; };
-		D7F23F8C298047110096316B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F23F8B298047110096316B /* ViewController.swift */; };
-		D7F23F8F298047110096316B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F23F8D298047110096316B /* Main.storyboard */; };
 		D7F23F91298047130096316B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F23F90298047130096316B /* Assets.xcassets */; };
 		D7F23F94298047130096316B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F23F92298047130096316B /* LaunchScreen.storyboard */; };
-		D7F23F9F298047130096316B /* CodeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F23F9E298047130096316B /* CodeViewTests.swift */; };
-		D7F23FA9298047140096316B /* CodeViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F23FA8298047140096316B /* CodeViewUITests.swift */; };
-		D7F23FAB298047140096316B /* CodeViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F23FAA298047140096316B /* CodeViewUITestsLaunchTests.swift */; };
+		D7F7058029887B5E0060D1C2 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7057F29887B5E0060D1C2 /* SearchVC.swift */; };
+		D7F7058229887BA40060D1C2 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7058129887BA40060D1C2 /* FavoritesListVC.swift */; };
+		D7F705842988BC860060D1C2 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F705832988BC860060D1C2 /* GFButton.swift */; };
+		D7F705862988C3000060D1C2 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F705852988C3000060D1C2 /* GFTextField.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D7F23F9B298047130096316B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D7F23F7C298047110096316B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D7F23F83298047110096316B;
-			remoteInfo = CodeView;
-		};
-		D7F23FA5298047140096316B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D7F23F7C298047110096316B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D7F23F83298047110096316B;
-			remoteInfo = CodeView;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		D79C09B9299DC5F30032599C /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
+		D79C09BB299DD8CB0032599C /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
+		D79C09BD299DDA180032599C /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
+		D79C09BF299DDA9C0032599C /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
+		D79C09C1299DDF060032599C /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		D7F23F84298047110096316B /* CodeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F23F87298047110096316B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7F23F89298047110096316B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D7F23F8B298047110096316B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D7F23F8E298047110096316B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7F23F90298047130096316B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7F23F93298047130096316B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7F23F95298047130096316B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7F23F9A298047130096316B /* CodeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7F23F9E298047130096316B /* CodeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewTests.swift; sourceTree = "<group>"; };
-		D7F23FA4298047140096316B /* CodeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7F23FA8298047140096316B /* CodeViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewUITests.swift; sourceTree = "<group>"; };
-		D7F23FAA298047140096316B /* CodeViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D7F7057F29887B5E0060D1C2 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		D7F7058129887BA40060D1C2 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		D7F705832988BC860060D1C2 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		D7F705852988C3000060D1C2 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,29 +48,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7F23F97298047130096316B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7F23FA1298047140096316B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D79C09C3299DE1850032599C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D7F7057F29887B5E0060D1C2 /* SearchVC.swift */,
+				D7F7058129887BA40060D1C2 /* FavoritesListVC.swift */,
+				D79C09B9299DC5F30032599C /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D79C09C4299DE1BD0032599C /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				D79C09BF299DDA9C0032599C /* GFAlertVC.swift */,
+				D7F705832988BC860060D1C2 /* GFButton.swift */,
+				D7F705852988C3000060D1C2 /* GFTextField.swift */,
+				D79C09BB299DD8CB0032599C /* GFTitleLabel.swift */,
+				D79C09BD299DDA180032599C /* GFBodyLabel.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		D79C09C5299DE1E70032599C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D79C09C1299DDF060032599C /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D79C09C6299DE2490032599C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D7F23F87298047110096316B /* AppDelegate.swift */,
+				D7F23F89298047110096316B /* SceneDelegate.swift */,
+				D7F23F90298047130096316B /* Assets.xcassets */,
+				D7F23F92298047130096316B /* LaunchScreen.storyboard */,
+				D7F23F95298047130096316B /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		D7F23F7B298047110096316B = {
 			isa = PBXGroup;
 			children = (
 				D7F23F86298047110096316B /* CodeView */,
-				D7F23F9D298047130096316B /* CodeViewTests */,
-				D7F23FA7298047140096316B /* CodeViewUITests */,
 				D7F23F85298047110096316B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				D7F23F84298047110096316B /* CodeView.app */,
-				D7F23F9A298047130096316B /* CodeViewTests.xctest */,
-				D7F23FA4298047140096316B /* CodeViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,32 +112,12 @@
 		D7F23F86298047110096316B /* CodeView */ = {
 			isa = PBXGroup;
 			children = (
-				D7F23F87298047110096316B /* AppDelegate.swift */,
-				D7F23F89298047110096316B /* SceneDelegate.swift */,
-				D7F23F8B298047110096316B /* ViewController.swift */,
-				D7F23F8D298047110096316B /* Main.storyboard */,
-				D7F23F90298047130096316B /* Assets.xcassets */,
-				D7F23F92298047130096316B /* LaunchScreen.storyboard */,
-				D7F23F95298047130096316B /* Info.plist */,
+				D79C09C5299DE1E70032599C /* Extensions */,
+				D79C09C4299DE1BD0032599C /* Custom Views */,
+				D79C09C3299DE1850032599C /* Screens */,
+				D79C09C6299DE2490032599C /* Support */,
 			);
 			path = CodeView;
-			sourceTree = "<group>";
-		};
-		D7F23F9D298047130096316B /* CodeViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				D7F23F9E298047130096316B /* CodeViewTests.swift */,
-			);
-			path = CodeViewTests;
-			sourceTree = "<group>";
-		};
-		D7F23FA7298047140096316B /* CodeViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D7F23FA8298047140096316B /* CodeViewUITests.swift */,
-				D7F23FAA298047140096316B /* CodeViewUITestsLaunchTests.swift */,
-			);
-			path = CodeViewUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +140,6 @@
 			productReference = D7F23F84298047110096316B /* CodeView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D7F23F99298047130096316B /* CodeViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D7F23FB1298047140096316B /* Build configuration list for PBXNativeTarget "CodeViewTests" */;
-			buildPhases = (
-				D7F23F96298047130096316B /* Sources */,
-				D7F23F97298047130096316B /* Frameworks */,
-				D7F23F98298047130096316B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D7F23F9C298047130096316B /* PBXTargetDependency */,
-			);
-			name = CodeViewTests;
-			productName = CodeViewTests;
-			productReference = D7F23F9A298047130096316B /* CodeViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D7F23FA3298047140096316B /* CodeViewUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D7F23FB4298047140096316B /* Build configuration list for PBXNativeTarget "CodeViewUITests" */;
-			buildPhases = (
-				D7F23FA0298047140096316B /* Sources */,
-				D7F23FA1298047140096316B /* Frameworks */,
-				D7F23FA2298047140096316B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D7F23FA6298047140096316B /* PBXTargetDependency */,
-			);
-			name = CodeViewUITests;
-			productName = CodeViewUITests;
-			productReference = D7F23FA4298047140096316B /* CodeViewUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +152,6 @@
 				TargetAttributes = {
 					D7F23F83298047110096316B = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					D7F23F99298047130096316B = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = D7F23F83298047110096316B;
-					};
-					D7F23FA3298047140096316B = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = D7F23F83298047110096316B;
 					};
 				};
 			};
@@ -220,8 +169,6 @@
 			projectRoot = "";
 			targets = (
 				D7F23F83298047110096316B /* CodeView */,
-				D7F23F99298047130096316B /* CodeViewTests */,
-				D7F23FA3298047140096316B /* CodeViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,21 +180,6 @@
 			files = (
 				D7F23F94298047130096316B /* LaunchScreen.storyboard in Resources */,
 				D7F23F91298047130096316B /* Assets.xcassets in Resources */,
-				D7F23F8F298047110096316B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7F23F98298047130096316B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7F23FA2298047140096316B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,53 +190,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7F23F8C298047110096316B /* ViewController.swift in Sources */,
+				D7F705862988C3000060D1C2 /* GFTextField.swift in Sources */,
+				D7F7058029887B5E0060D1C2 /* SearchVC.swift in Sources */,
+				D7F705842988BC860060D1C2 /* GFButton.swift in Sources */,
+				D79C09C2299DDF060032599C /* UIViewController+Ext.swift in Sources */,
 				D7F23F88298047110096316B /* AppDelegate.swift in Sources */,
+				D79C09C0299DDA9C0032599C /* GFAlertVC.swift in Sources */,
+				D79C09BE299DDA180032599C /* GFBodyLabel.swift in Sources */,
+				D79C09BC299DD8CB0032599C /* GFTitleLabel.swift in Sources */,
+				D79C09BA299DC5F30032599C /* FollowerListVC.swift in Sources */,
+				D7F7058229887BA40060D1C2 /* FavoritesListVC.swift in Sources */,
 				D7F23F8A298047110096316B /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7F23F96298047130096316B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7F23F9F298047130096316B /* CodeViewTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7F23FA0298047140096316B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7F23FAB298047140096316B /* CodeViewUITestsLaunchTests.swift in Sources */,
-				D7F23FA9298047140096316B /* CodeViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		D7F23F9C298047130096316B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D7F23F83298047110096316B /* CodeView */;
-			targetProxy = D7F23F9B298047130096316B /* PBXContainerItemProxy */;
-		};
-		D7F23FA6298047140096316B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D7F23F83298047110096316B /* CodeView */;
-			targetProxy = D7F23FA5298047140096316B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		D7F23F8D298047110096316B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7F23F8E298047110096316B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D7F23F92298047130096316B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,12 +341,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2K45S7DZM8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CodeView/Info.plist;
+				INFOPLIST_FILE = CodeView/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,12 +369,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2K45S7DZM8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CodeView/Info.plist;
+				INFOPLIST_FILE = CodeView/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,82 +385,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		D7F23FB2298047140096316B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2K45S7DZM8;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.carlospacheco.CodeViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodeView";
-			};
-			name = Debug;
-		};
-		D7F23FB3298047140096316B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2K45S7DZM8;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.carlospacheco.CodeViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodeView";
-			};
-			name = Release;
-		};
-		D7F23FB5298047140096316B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2K45S7DZM8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.carlospacheco.CodeViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CodeView;
-			};
-			name = Debug;
-		};
-		D7F23FB6298047140096316B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2K45S7DZM8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.carlospacheco.CodeViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CodeView;
 			};
 			name = Release;
 		};
@@ -579,24 +405,6 @@
 			buildConfigurations = (
 				D7F23FAF298047140096316B /* Debug */,
 				D7F23FB0298047140096316B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D7F23FB1298047140096316B /* Build configuration list for PBXNativeTarget "CodeViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D7F23FB2298047140096316B /* Debug */,
-				D7F23FB3298047140096316B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D7F23FB4298047140096316B /* Build configuration list for PBXNativeTarget "CodeViewUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D7F23FB5298047140096316B /* Debug */,
-				D7F23FB6298047140096316B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
