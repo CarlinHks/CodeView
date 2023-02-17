@@ -16,16 +16,20 @@ class GFAlertVC: UIViewController {
 
   var alertTitle: String?
   var message: String?
-  var buttonTittle: String?
+  var buttonTitle
+: String?
 
   let padding: CGFloat = 20
 
-  init(title: String? = nil, message: String? = nil, buttonTittle: String? = nil) {
+  init(title: String? = nil, message: String? = nil, buttonTitle
+: String? = nil) {
     super.init(nibName: nil, bundle: nil)
 
     self.alertTitle = title
     self.message = message
-    self.buttonTittle = buttonTittle
+    self.buttonTitle
+ = buttonTitle
+
   }
 
   required init?(coder: NSCoder) {
@@ -37,7 +41,7 @@ class GFAlertVC: UIViewController {
 
     view.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.75)
     configureContainerView()
-    configureTittleLabel()
+    configureTitleLabel()
     configureActionButton()
     configureMessageLabel()
   }
@@ -59,7 +63,7 @@ class GFAlertVC: UIViewController {
     ])
   }
 
-  func configureTittleLabel() {
+  func configureTitleLabel() {
     containerView.addSubview(titleLabel)
 
     titleLabel.text = alertTitle ?? "Something went wrong"
@@ -75,7 +79,7 @@ class GFAlertVC: UIViewController {
   func configureActionButton() {
     containerView.addSubview(actionButton)
 
-    actionButton.setTitle(buttonTittle ?? "Ok", for: .normal)
+    actionButton.setTitle(buttonTitle ?? "Ok", for: .normal)
     actionButton.addTarget(self, action: #selector(dismissVC), for: .touchUpInside)
 
     NSLayoutConstraint.activate([
