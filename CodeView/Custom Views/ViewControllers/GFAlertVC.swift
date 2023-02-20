@@ -16,19 +16,16 @@ class GFAlertVC: UIViewController {
 
   var alertTitle: String?
   var message: String?
-  var buttonTitle
-: String?
+  var buttonTitle: String?
 
   let padding: CGFloat = 20
 
-  init(title: String? = nil, message: String? = nil, buttonTitle
-: String? = nil) {
+  init(title: String? = nil, message: String? = nil, buttonTitle: String? = nil) {
     super.init(nibName: nil, bundle: nil)
 
     self.alertTitle = title
     self.message = message
-    self.buttonTitle
- = buttonTitle
+    self.buttonTitle = buttonTitle
 
   }
 
