@@ -1,5 +1,5 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  CodeView
 //
 //  Created by Carlos Pacheco on 17/02/23.
