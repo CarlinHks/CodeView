@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D749EF4929AE9DC2003FCCEF /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749EF4829AE9DC2003FCCEF /* UITableView+Ext.swift */; };
+		D749EF4D29B0C5CE003FCCEF /* FollowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749EF4C29B0C5CE003FCCEF /* FollowerView.swift */; };
 		D79C09BA299DC5F30032599C /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C09B9299DC5F30032599C /* FollowerListVC.swift */; };
 		D79C09BC299DD8CB0032599C /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C09BB299DD8CB0032599C /* GFTitleLabel.swift */; };
 		D79C09BE299DDA180032599C /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C09BD299DDA180032599C /* GFBodyLabel.swift */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		D749EF4829AE9DC2003FCCEF /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		D749EF4C29B0C5CE003FCCEF /* FollowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerView.swift; sourceTree = "<group>"; };
 		D79C09B9299DC5F30032599C /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		D79C09BB299DD8CB0032599C /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		D79C09BD299DDA180032599C /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
@@ -99,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D749EF4B29B0C5A0003FCCEF /* FollowerCell */ = {
+			isa = PBXGroup;
+			children = (
+				D79C09D329A1D1A50032599C /* FollowerCell.swift */,
+				D749EF4C29B0C5CE003FCCEF /* FollowerView.swift */,
+			);
+			path = FollowerCell;
+			sourceTree = "<group>";
+		};
 		D79C09C3299DE1850032599C /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,7 +190,7 @@
 		D79C09D229A1D1960032599C /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				D79C09D329A1D1A50032599C /* FollowerCell.swift */,
+				D749EF4B29B0C5A0003FCCEF /* FollowerCell */,
 				D79C09F929A871CE0032599C /* FavoriteCell.swift */,
 			);
 			path = Cells;
@@ -388,6 +399,7 @@
 				D79C09E029A32C880032599C /* GFEmptyStateView.swift in Sources */,
 				D79C09CE29A037E60032599C /* NetworkManager.swift in Sources */,
 				D79C09BA299DC5F30032599C /* FollowerListVC.swift in Sources */,
+				D749EF4D29B0C5CE003FCCEF /* FollowerView.swift in Sources */,
 				D7F7058229887BA40060D1C2 /* FavoritesListVC.swift in Sources */,
 				D79C09EE29A5CF330032599C /* GFRepoItemVC.swift in Sources */,
 				D749EF4929AE9DC2003FCCEF /* UITableView+Ext.swift in Sources */,
