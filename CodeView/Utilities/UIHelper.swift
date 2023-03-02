@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct UIHelper {
+enum UIHelper {
 
   static func createThreeColumnFlowLayout(in view: UIView) -> UICollectionViewLayout {
     let width = view.bounds.width
@@ -15,11 +15,16 @@ struct UIHelper {
     let minItemSpacing: CGFloat = 10
     let availableWidth = width - (padding * 2) - (minItemSpacing * 2)
     let ItemWidth = availableWidth / 3
-
     let flowLayout = UICollectionViewFlowLayout()
-    flowLayout.sectionInset = UIEdgeInsets(top: padding, left: padding, bottom: padding, right: padding)
-    flowLayout.itemSize = CGSize(width: ItemWidth, height: ItemWidth + 40)
 
+    flowLayout.sectionInset = UIEdgeInsets(
+      top: padding,
+      left: padding,
+      bottom: padding,
+      right: padding
+    )
+
+    flowLayout.itemSize = CGSize(width: ItemWidth, height: ItemWidth + 40)
 
     return flowLayout
   }
