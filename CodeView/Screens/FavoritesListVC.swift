@@ -58,8 +58,7 @@ class FavoritesListVC: GFDataLoadingVC {
         case .failure(let error):
           self.presentGFAlertOnMainThread(
             title: "Something went wrong",
-            message: error.rawValue,
-            buttonTitle: "Ok"
+            message: error.rawValue
           )
       }
     }
@@ -119,8 +118,7 @@ extension FavoritesListVC: UITableViewDataSource, UITableViewDelegate {
 
       self.presentGFAlertOnMainThread(
         title: "Unable to remove",
-        message: error.rawValue,
-        buttonTitle: "Ok"
+        message: error.rawValue
       ) 
     }
   }
